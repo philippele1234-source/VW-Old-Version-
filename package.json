@@ -1,0 +1,27 @@
+{
+  "name": "voidware-v10",
+  "version": "1.0.0",
+  "description": "VoidWare Roblox Simulation",
+  "main": "main.js",
+  "author": "Philippe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.voidware.v10",
+    "productName": "VoidWare V10",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

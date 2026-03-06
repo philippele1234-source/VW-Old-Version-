@@ -1,0 +1,16 @@
+{
+  "name": "voidware-v10",
+  "version": "1.0.0",
+  "description": "VoidWare Roblox Simulation",
+  "main": "main.js",
+  "author": "Philippe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . VoidWareV10 --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}
