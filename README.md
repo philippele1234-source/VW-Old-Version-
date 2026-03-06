@@ -1,8 +1,6 @@
 <!Doctype html>
 <html lang="en-fr">
 <head>
-  <meta charset="UTF-8">
-  <title>VW Old</title>
 </head>
 <p>To ensure VoidWare is working,
 
